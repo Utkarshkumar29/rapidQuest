@@ -4,7 +4,11 @@ export const RetirementViewContainer = styled.div`
     max-width: 2600px;
     width: 100%;
     height: 100vh;
-    /* Remove unnecessary position property */
+    
+    @media (max-width:426px){
+        position: relative;
+        top: 500px;
+    }
 `;
 
 export const RetirementViewWrapper = styled.div`
