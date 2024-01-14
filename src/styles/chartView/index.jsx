@@ -351,8 +351,7 @@ export const Circle1=styled.div`
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 30%, 0 70%);
-        border-radius: 100px 100px 100px 100px;
+        clip-path: ellipse(70% 70% at 110% 0%);
     }
 `
 
@@ -365,6 +364,20 @@ export const Circle2=styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    &::after{
+        content: "";
+        border: 10px solid #22d6aa;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        clip-path: ellipse(70% 500% at 110% 100%);
+    }
 `
 
 export const Circle3=styled.div`
@@ -376,4 +389,18 @@ export const Circle3=styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+
+    &::after{
+        content: "";
+        border: 10px solid #22d6aa;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        clip-path: ellipse(70% 1000% at 110% 0%);
+    }
 `

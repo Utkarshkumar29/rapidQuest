@@ -98,17 +98,17 @@ const ChartView=()=>{
 
                         <CircleContainer>
                             <CircleWrapper>
-                                <Circle1><p>78%</p></Circle1>
+                                <Circle1 completionPercentage={70}><p>78%</p></Circle1>
                                 <p>Average</p>
                             </CircleWrapper>
 
                             <CircleWrapper>
-                                <Circle2><p>95%</p></Circle2>
+                                <Circle2 completionPercentage={70}><p>95%</p></Circle2>
                                 <p>Top</p>
                             </CircleWrapper>
 
                             <CircleWrapper>
-                                <Circle3><p>59%</p></Circle3>
+                                <Circle3 completionPercentage={70}><p>59%</p></Circle3>
                                 <p>Me</p>
                             </CircleWrapper>
                             

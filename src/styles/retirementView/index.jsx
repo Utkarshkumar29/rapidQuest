@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const RetirementViewContainer=styled.div`
     max-width: 2600px;
     width: 100%;
+    flex: 1;
 
     @media(max-width:426px){
         position: relative;
