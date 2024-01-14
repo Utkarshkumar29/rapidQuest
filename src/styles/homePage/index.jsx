@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const HomePageContainer=styled.div`
     max-width: 2600px;
     width: 100%;
-    max-height: 100px;
     height: 100%;
     justify-content: center;
     align-items: center;

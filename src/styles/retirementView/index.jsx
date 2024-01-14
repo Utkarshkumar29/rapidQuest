@@ -17,16 +17,17 @@ export const RetirementViewWrapper = styled.div`
     display: flex;
     flex-direction: row;
     flex-direction: column;
-    padding: 10px;
+    background-color: #F5F5F4;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 `;
 
 export const RetirementCard = styled.div`
-    background-color: #F5F5F4;
     max-width: 200px;
     width: 100%;
     max-height: 450px;
     height: 100%;
-    padding: 30px;
 
     :nth-child(1) {
         font-weight: bold;
