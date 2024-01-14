@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 export const RetirementViewContainer = styled.div`
-    position: relative;
-    top: 400px;
+    
     
     @media (max-width:426px){
         max-width: 425px;
         width: 100%;
         display: flex;
         justify-content: center;
+        position: relative;
+        top: 400px;
     }
 `;
 
