@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const RetirementViewContainer = styled.div`
-    max-width: 2600px;
+    max-width: 500px;
     width: 100%;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
     
     @media (max-width:426px){
         position: relative;
@@ -14,9 +16,8 @@ export const RetirementViewContainer = styled.div`
 export const RetirementViewWrapper = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    padding: 10px;
 `;
 
 export const RetirementCard = styled.div`
