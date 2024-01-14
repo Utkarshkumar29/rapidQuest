@@ -22,7 +22,7 @@ export const IntroViewContainer=styled.div`
 
     @media(max-width:321px){
         position: relative;
-        left: -7px;
+        left: -11px;
     }
 `
 
