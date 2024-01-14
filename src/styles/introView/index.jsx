@@ -5,6 +5,8 @@ export const IntroViewContainer=styled.div`
     width: 100%;
     height: auto;
     background-color: #F5F5F4;
+    display: flex;
+    justify-content: center;
 
     @media (max-width:1011px) {
         max-width: 350px;
