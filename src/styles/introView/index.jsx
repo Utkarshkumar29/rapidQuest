@@ -16,7 +16,6 @@ export const IntroViewContainer=styled.div`
         min-height: 700px;
         height: 100%;
         background-color: white;
-        padding-left: 20px;
     }
 
 

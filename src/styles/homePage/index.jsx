@@ -17,5 +17,7 @@ export const HomePageWrapper=styled.div`
 
     @media (max-width:426px) {
         flex-direction: column;
+        min-height: 1600px;
+        height: 100%;
     }
 `
