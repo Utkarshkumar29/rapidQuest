@@ -4,8 +4,7 @@ export const RetirementViewContainer = styled.div`
     max-width: 500px;
     width: 100%;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
     
     @media (max-width:426px){
         position: relative;
