@@ -1,32 +1,37 @@
 import styled from 'styled-components';
 
 export const RetirementViewContainer = styled.div`
-    max-width: 500px;
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
+    position: relative;
+    top: 400px;
     
     @media (max-width:426px){
-        position: relative;
-        top: 500px;
+        max-width: 425px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 `;
 
 export const RetirementViewWrapper = styled.div`
+    max-width: 300px;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-direction: column;
-    background-color: #F5F5F4;
     padding: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-`;
+    `;
 
 export const RetirementCard = styled.div`
-    max-width: 200px;
+    background-color: #F5F5F4;
+    max-width: 250px;
     width: 100%;
     max-height: 450px;
     height: 100%;
+    padding: 30px;
 
     :nth-child(1) {
         font-weight: bold;

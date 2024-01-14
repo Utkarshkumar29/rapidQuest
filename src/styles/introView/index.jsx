@@ -1,19 +1,20 @@
 import styled from 'styled-components'
 
 export const IntroViewContainer=styled.div`
-    min-width: 350px;
+    max-width: 400px;
     width: 100%;
     height: auto;
     background-color: #F5F5F4;
     display: flex;
     justify-content: center;
+    padding: 20px;
 
     @media (max-width:1011px) {
         max-width: 350px;
     }
 
     @media(max-width:426px){
-        max-width: 425px;
+        max-width: 399px;
         width: 100%;
         min-height: 700px;
         height: 100%;

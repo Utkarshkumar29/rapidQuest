@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const MobileSliderContainer=styled.div`
-    max-width: 450px;
+    max-width: 425px;
     width: 100%;    
     max-height: 50px;
     height: 100%;

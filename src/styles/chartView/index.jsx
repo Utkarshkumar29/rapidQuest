@@ -14,7 +14,7 @@ export const ChartViewContainer=styled.div`
 
     @media(max-width:426px){
         padding: 15px;
-        max-width: 400px;
+        max-width: 395px;
         width: 100%;
         margin-top: 40px;
     }
